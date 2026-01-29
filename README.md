@@ -6,6 +6,7 @@ This project presents a **cross-sectional customer churn and revenue risk analys
 
 Due to the absence of transaction-level payment data, churn is modeled as a **snapshot-based customer state** rather than a time-series process. The project prioritizes clean data modeling, defensible assumptions, and business-relevant segmentation.
 
+The analysis emphasizes customer prioritization and revenue protection rather than temporal churn trends.
 ---
 
 ## Business Objectives
@@ -26,6 +27,9 @@ This analysis is intended to support revenue, finance, and product stakeholders 
 - A **star schema** is used to separate measurable outcomes from descriptive attributes  
 - A central fact table (`fact_customer_churn`) is supported by customer, service, demographic, and date dimensions  
 - Revenue impact is estimated using recurring charges as a proxy for revenue at risk  
+- Churn exposure is prioritized using revenue-based segmentation to distinguish high-impact churned customers
+- Customer lifecycle context is inferred using tenure-based buckets rather than time-series trends
+
 
 All assumptions and constraints are explicitly documented to avoid overstating analytical precision.
 
