@@ -1,3 +1,13 @@
+-- Tenure-Based Churn Analysis
+-- ---------------------------
+-- Key Findings:
+-- - Churn volume is highest in the first 6 months
+-- - High-paying customers churn later but drive
+--   disproportionate revenue loss
+-- - Retention effectiveness improves significantly
+--   after early lifecycle stages
+
+
 WITH base AS (
     SELECT
         customer_id,
