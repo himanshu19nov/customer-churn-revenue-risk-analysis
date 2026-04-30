@@ -4,9 +4,8 @@
 
 This project presents a **cross-sectional customer churn and revenue risk analysis** for a B2C subscription-based business using a single quarterly reporting snapshot. The analysis focuses on identifying customer segments and service configurations associated with higher churn rates and estimating the amount of recurring revenue exposed to churn.
 
-Due to the absence of transaction-level payment data, churn is modeled as a **snapshot-based customer state** rather than a time-series process. The project prioritizes clean data modeling, defensible assumptions, and business-relevant segmentation.
+Due to the absence of transaction-level payment data, churn is modeled as a **snapshot-based customer state** rather than a time-series process. T
 
-The analysis emphasizes customer prioritization and revenue protection rather than temporal churn trends.
 ---
 
 ## Business Objectives
@@ -42,6 +41,16 @@ All assumptions and constraints are explicitly documented to avoid overstating a
 - **Power BI** — data modeling, DAX measures, and dashboards  
 
 ---
+
+## Key findings
+
+| Metric | Value |
+|---|---|
+| Total customers | 7,043 |
+| Churned customers | 1,869 |
+| Overall churn rate | **26.54%** |
+| Monthly revenue at risk | **$139,130.85** |
+| Median monthly charges | $70.35 |
 
 
 
