@@ -56,27 +56,27 @@ All assumptions and constraints are explicitly documented to avoid overstating a
 Three-page interactive report with slicers, bookmarks, and cross-page navigation:
 Page 1 — Overview
 
-KPI cards: total customers, churn rate, monthly revenue at risk
-Churn rate by contract type and tenure bucket
-Recurring revenue at risk by contract type and tenure-based exposure
-Avg monthly charges: churned vs retained
+- KPI cards: total customers, churn rate, monthly revenue at risk
+- Churn rate by contract type and tenure bucket
+- Recurring revenue at risk by contract type and tenure-based exposure
+- Avg monthly charges: churned vs retained
 
 <img width="1630" height="805" alt="image" src="https://github.com/user-attachments/assets/3f56bc3e-ba44-4e75-adc2-04360f1d4fb9" />
 
 
 Page 2 — Tenure Segment Deep Dive
 
-Monthly charges distribution (binned histogram)
-Segment churn rate by internet type and payment method
-Segment insights card
+- Monthly charges distribution (binned histogram)
+- Segment churn rate by internet type and payment method
+- Segment insights card
 
 <img width="1623" height="800" alt="image" src="https://github.com/user-attachments/assets/e8fa544a-bc9e-4537-b69f-fdc5373b82d3" />
 
 
 Page 3 — Churn Drivers
 
-Key Drivers visual (Power BI AI visual) — automated driver ranking
-Revenue concentration analysis
+- Key Drivers visual (Power BI AI visual) — automated driver ranking
+- Revenue concentration analysis
 
 <img width="1620" height="794" alt="image" src="https://github.com/user-attachments/assets/0a409bc3-4055-489c-92c9-89b513f5fea9" />
 
